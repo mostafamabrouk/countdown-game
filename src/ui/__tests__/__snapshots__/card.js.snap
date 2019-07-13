@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders with character 1`] = `
+.c0 {
+  width: 120px;
+  height: 160px;
+  border: 2px solid #000;
+  margin: 0 8px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-family: Helvetica;
+  font-size: 96px;
+  color: #009680;
+  text-align: center;
+  cursor: move;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+<div
+  className="c0"
+>
+  s
+</div>
+`;
+
+exports[`Card renders with character and dragged before 1`] = `
+.c0 {
+  width: 120px;
+  height: 160px;
+  border: 2px solid #000;
+  margin: 0 8px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-family: Helvetica;
+  font-size: 96px;
+  color: #009680;
+  text-align: center;
+  cursor: move;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  opacity: 0.25;
+}
+
+<div
+  className="c0"
+>
+  s
+</div>
+`;
+
+exports[`Card renders with character and error 1`] = `
+.c0 {
+  width: 120px;
+  height: 160px;
+  border: 2px solid #000;
+  margin: 0 8px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-family: Helvetica;
+  font-size: 96px;
+  color: #009680;
+  text-align: center;
+  cursor: move;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  border-color: #FF0000;
+  opacity: 0.42;
+}
+
+<div
+  className="c0"
+>
+  s
+</div>
+`;
+
+exports[`Card renders with character and success 1`] = `
+.c0 {
+  width: 120px;
+  height: 160px;
+  border: 2px solid #000;
+  margin: 0 8px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-family: Helvetica;
+  font-size: 96px;
+  color: #009680;
+  text-align: center;
+  cursor: move;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  border-color: #6CBC36;
+  color: #000;
+}
+
+<div
+  className="c0"
+>
+  s
+</div>
+`;
+
+exports[`Card renders withouut any parameters 1`] = `
+.c0 {
+  width: 120px;
+  height: 160px;
+  border: 2px solid #000;
+  margin: 0 8px;
+  text-transform: uppercase;
+  line-height: 160px;
+  font-family: Helvetica;
+  font-size: 96px;
+  color: #009680;
+  text-align: center;
+  cursor: move;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+<div
+  className="c0"
+/>
+`;

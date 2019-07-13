@@ -12,8 +12,7 @@ const getWords = () => {
     "Rome",
     "New York",
     "Tokyo",
-    "Jeddah",
-    "Mekka"
+    "Vienna"
   ];
   const alphabits = "qwertyuiopasdfghjklzxcvbnm".split("");
   const correctWord = words[
@@ -29,6 +28,8 @@ const getWords = () => {
 
   word = shuffle(word.split("")).join("");
   const hint = "It's a famous city";
+  console.log("word", word);
+  console.log("correctWord", correctWord);
   return { word, correctWord, hint };
 };
 export default getWords;

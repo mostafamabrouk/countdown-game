@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Score renders with minutes and seconds 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.c0 li {
+  margin: 10px;
+}
+
+<ul
+  className="c0"
+>
+  <li>
+    <strong>
+      Win:
+    </strong>
+     
+    0
+  </li>
+  <li>
+    <strong>
+      Loses:
+    </strong>
+     
+    2
+  </li>
+</ul>
+`;
+
+exports[`Score renders withouut any parameters 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.c0 li {
+  margin: 10px;
+}
+
+<ul
+  className="c0"
+>
+  <li>
+    <strong>
+      Win:
+    </strong>
+     
+  </li>
+  <li>
+    <strong>
+      Loses:
+    </strong>
+     
+  </li>
+</ul>
+`;

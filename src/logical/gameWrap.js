@@ -1,7 +1,6 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { DndProvider } from "react-dnd";
 import HTML5Backend from "react-dnd-html5-backend";
-import styled from "styled-components";
 import getWords from "../utils/getWord";
 import { Game, Timer } from "./index";
 import { Header, Notification } from "../ui";
@@ -10,8 +9,6 @@ const GameWrap = props => {
   const { isRunning, onSuccess, onGameOver, duration } = props;
   const [errorsCount, setErrorsCount] = useState(3);
   const [{ word, correctWord, hint }] = useState(getWords());
-  console.log("word", word);
-  console.log("correctWord", correctWord);
 
   const [message, setMessage] = useState({
     message: (
@@ -45,14 +42,6 @@ const GameWrap = props => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [errorsCount]);
 
-  const Message = styled.p`
-    padding: 10px;
-    background: #eee;
-    display: table;
-    margin: auto;
-    ${message.error && "color: #F00; background:#E57373 "}
-    ${message.success && "color: #6CBC36; background: #81C784;"}
-  `;
   return (
     <Fragment>
       <Timer

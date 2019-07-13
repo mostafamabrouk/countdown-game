@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer renders with minutes and seconds 1`] = `
+.c0 {
+  opacity: 0.5;
+  font-family: Helvetica;
+  font-size: 48px;
+  color: #00648f;
+  text-align: center;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  margin: 0 0 30px;
+}
+
+<div
+  className="c0"
+>
+  00
+  :
+  05
+</div>
+`;
+
+exports[`Timer renders withouut any parameters 1`] = `
+.c0 {
+  opacity: 0.5;
+  font-family: Helvetica;
+  font-size: 48px;
+  color: #00648f;
+  text-align: center;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  margin: 0 0 30px;
+}
+
+<div
+  className="c0"
+>
+  :
+</div>
+`;

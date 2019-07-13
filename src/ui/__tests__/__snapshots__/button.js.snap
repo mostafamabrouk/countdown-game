@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders the same 1`] = `
+.c0 {
+  display: block;
+  padding: 15px;
+  border: none;
+  background: #009680;
+  color: #fff;
+  margin: 20px auto;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 200;
+  -webkit-letter-spacing: 3px;
+  -moz-letter-spacing: 3px;
+  -ms-letter-spacing: 3px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+.c0:hover {
+  background: #000;
+}
+
+<button
+  className="c0"
+>
+  Label
+</button>
+`;

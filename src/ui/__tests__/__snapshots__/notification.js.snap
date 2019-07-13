@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification renders with message 1`] = `
+.c0 {
+  padding: 10px;
+  background: #eee;
+  display: table;
+  margin: auto;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Notification renders with message and error 1`] = `
+.c0 {
+  padding: 10px;
+  background: #eee;
+  display: table;
+  margin: auto;
+  color: #F00;
+  background: #FFEBEE;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Notification renders with message and success 1`] = `
+.c0 {
+  padding: 10px;
+  background: #eee;
+  display: table;
+  margin: auto;
+  color: #6CBC36;
+  background: #E8F5E9;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`Notification renders withouut any parameters 1`] = `
+.c0 {
+  padding: 10px;
+  background: #eee;
+  display: table;
+  margin: auto;
+}
+
+<p
+  className="c0"
+/>
+`;
